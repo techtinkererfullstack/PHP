@@ -1,17 +1,19 @@
-<?php
-
-#variable can be asigned with _ letter 
-$myName = "Shafe alam";
-
-#to show myname as variable we need to assigned it with double clots or {}
-echo 'hello $myname';
-echo "my name is $myName";
-
-echo 'my name is ' . $myName
-
-
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample php</title>
+</head>
+<body>
+    <h1>
+        <?php 
+        $myName = 'shafe alam';
+        echo 'My name is '. $myName
+        ?>
+    </h1>
+</body>
+</html>
 
 
 
