@@ -10,6 +10,7 @@ echo "my name is {$_myName}";
 define('PROFESSION', 'software engineer');
 const STATUS_PAID = 'PAID';
 echo 'PROFESSTION : ' . PROFESSION;
+echo '<br/>';
 echo STATUS_PAID;
 
 defined("STATUS_PAID");
@@ -26,10 +27,6 @@ $name = 'tasnim';
 $$name = 'alam';
 
 echo "$name, {$$name}";
-
-
-        
-
 
 
 
